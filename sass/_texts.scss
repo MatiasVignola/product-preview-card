@@ -1,0 +1,22 @@
+@use 'variables';
+@use 'reset';
+
+.texts{
+    height: 230px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.texts p{
+    color: variables.$dark-grayish-blue;
+}
+.perfume{
+    text-transform: uppercase;
+    letter-spacing: .3em;
+    margin-bottom: 5px;
+}
+.texts_tittle{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 25px;
+}

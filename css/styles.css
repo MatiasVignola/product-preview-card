@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+/*font-family: 'Montserrat', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+/*font-family: 'Fraunces', serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.texts {
+  height: 230px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.texts p {
+  color: hsl(228deg, 12%, 48%);
+}
+
+.perfume {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 5px;
+}
+
+.texts_tittle {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.prices {
+  padding: 0 30px 30px;
+  height: 155px;
+}
+
+.prices_numbers {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.span1 {
+  font-size: 25px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(158deg, 36%, 37%);
+  margin-right: 20px;
+}
+
+.span2 {
+  font-size: 14px;
+  text-decoration-line: line-through;
+  color: hsl(228deg, 12%, 48%);
+}
+
+.card_btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(158deg, 36%, 37%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+body {
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.main {
+  width: 340px;
+  height: 615px;
+  margin: 90px auto;
+  border-radius: 10px;
+  background-color: hsl(0deg, 0%, 100%);
+  overflow: hidden;
+}
+
+.card_img {
+  width: 100%;
+  height: 240px;
+  background-image: url(../images/image-product-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 680px) {
+  .main {
+    margin: 175px auto;
+    width: 600px;
+    height: 450px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card_img {
+    height: 100%;
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .texts {
+    margin-bottom: 80px;
+  }
+  .perfume {
+    margin-bottom: 30px;
+  }
+  .description {
+    line-height: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
